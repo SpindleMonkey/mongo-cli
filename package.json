@@ -1,0 +1,25 @@
+{
+  "name": "mongo-cli",
+  "version": "1.0.0",
+  "description": "Your task is to connect to the `restaurant_db` via the `mongodb` node module and build a little CLI app that will allow a user to enter commands to query our database.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpindleMonkey/mongo-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SpindleMonkey/mongo-cli/issues"
+  },
+  "homepage": "https://github.com/SpindleMonkey/mongo-cli#readme",
+  "dependencies": {
+    "mongodb": "^2.2.30",
+    "prompt-sync": "^4.1.5",
+    "save": "^2.3.1"
+  }
+}
